@@ -1,0 +1,7 @@
+C:\git\Hangman AI\Hangman AI\bin\Debug\Hangman AI.exe.config
+C:\git\Hangman AI\Hangman AI\bin\Debug\Hangman AI.exe
+C:\git\Hangman AI\Hangman AI\bin\Debug\Hangman AI.pdb
+C:\git\Hangman AI\Hangman AI\obj\Debug\Hangman AI.csprojAssemblyReference.cache
+C:\git\Hangman AI\Hangman AI\obj\Debug\Hangman AI.csproj.CoreCompileInputs.cache
+C:\git\Hangman AI\Hangman AI\obj\Debug\Hangman AI.exe
+C:\git\Hangman AI\Hangman AI\obj\Debug\Hangman AI.pdb
