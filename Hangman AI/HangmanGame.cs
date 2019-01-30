@@ -72,6 +72,7 @@ namespace Hangman_AI
         public void PlayRound(char guess)
         {
             tries++;
+            int index = 0;
             if (guessedLetters.Contains(guess))
             {
                 Console.WriteLine("You already guessed that!");
@@ -79,9 +80,16 @@ namespace Hangman_AI
             else if (word.Contains(guess))
             {
                 Console.WriteLine("Found a letter!");
-                int index = word.IndexOf(guess);
-                foundLetters[index] = guess;
-                guessedLetters.Add(guess);
+                index = word.IndexOf(guess, index);
+
+                while (index > -1)
+                {
+                    foundLetters[index] = guess;
+                    guessedLetters.Add(guess);
+                    index++;
+
+                    index = word.IndexOf(guess, index);
+                }
             }
             else
             {

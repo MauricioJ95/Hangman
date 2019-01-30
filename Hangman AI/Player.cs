@@ -8,7 +8,8 @@ namespace Hangman_AI
 {
     abstract class Player
     {
-            public abstract char Guess();
+        public int NumberOfGuesses = 0;
+        public abstract char Guess();
     }
     
 }

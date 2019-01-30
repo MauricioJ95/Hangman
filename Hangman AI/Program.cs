@@ -18,6 +18,11 @@ namespace Hangman_AI
             HangmanGame bp2 = new HangmanGame(bp);
             Player sp = new SmartPlayer();
             HangmanGame sp2 = new HangmanGame(sp);
+
+            Console.WriteLine($"Human player won in {hp.NumberOfGuesses} guesses.");
+            Console.WriteLine($"Random player won in {rp.NumberOfGuesses} guesses.");
+            Console.WriteLine($"Brute player won in {bp.NumberOfGuesses} guesses.");
+            Console.WriteLine($"Smart player won in {sp.NumberOfGuesses} guesses.");
         }
     }
 }

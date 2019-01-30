@@ -10,6 +10,7 @@ namespace Hangman_AI
     {
         public override char Guess()
         {
+            NumberOfGuesses++;
             char guess = char.Parse(Console.ReadLine());
             return guess;
         }

@@ -10,6 +10,7 @@ namespace Hangman_AI
     {
         public override char Guess()
         {
+            NumberOfGuesses++;
             char[] chars = "abcdefghijklmnopqrstuvwxyz".ToCharArray();
             Random r = new Random();
             int i = r.Next(chars.Length);
