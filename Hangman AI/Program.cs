@@ -10,6 +10,7 @@ namespace Hangman_AI
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Sup");
             Player hp = new HumanPlayer();
             HangmanGame hp2 = new HangmanGame(hp);
             Player rp = new RandomPlayer();
